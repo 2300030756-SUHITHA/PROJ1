@@ -22,7 +22,8 @@ const App = () => (
         <FeedbackProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter>
+          <BrowserRouter basename="/PROJ1">
+
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/login" element={<Login />} />
